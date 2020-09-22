@@ -72,8 +72,20 @@ body {
 
 a.category-badge > span.badge:hover{
     background: #292125 !important;
-    color: #fff !important;
+    color: rgb(243, 240, 240) !important;
 } 
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
 
 /* -------------------------------- Media Queries */
 
